@@ -46,5 +46,13 @@ def search_api():
         return jsonify({'message': 'No matching row found.'}), 404
 
 
+@app.route('/term', methods=['GET'])
+def term_api():
+    dict = {
+        'TERM': '1244'
+    }
+    return jsonify(dict)
+
+
 if __name__ == "__main__":
     app.run(debug=False)
