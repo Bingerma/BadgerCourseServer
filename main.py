@@ -39,7 +39,9 @@ def search_api():
             'COURSEABRV': row[0],
             'COURSEFULLNAME': row[1],
             'COURSEID': row[2],
-            'SUBJECTCODE': row[3]
+            'SUBJECTCODE': row[3],
+            # TODO: Note this is static, and needs to be updated
+            'TERM': '1244'
         }
         return jsonify(row_dict)
     else:
