@@ -2,7 +2,8 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
+| 1.0.1   | :white_check_mark: |
+| 1.0.0   | :x:                |
 
 ## Reporting a Vulnerability
 For any vulnerability reports, please email badgerCourseRelease@gmail.com
